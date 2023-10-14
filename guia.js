@@ -126,6 +126,6 @@
 //EJERCICIO 10
 const nombres = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-const result = nombres.slice(0, 10).map((copia) => copia * 3)
+const result = nombres.slice(0, 10).map((x) => x * 3)
 
 console.log(result)
