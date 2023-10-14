@@ -1,5 +1,5 @@
-//EJERCICIO 5
-const Usuarios = [
+//EXERCISE 5
+const Users = [
     {
         name : "Rafael Perez",
         email : "rafael@gmail.com"
@@ -18,6 +18,6 @@ const Usuarios = [
     },
     ];
 
-    const result = Usuarios.filter((x) => x.email === "rosario@gmail.com")
+    const result = Users.filter((x) => x.email === "rosario@gmail.com")
 
     console.log(result)
